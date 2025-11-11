@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Admin Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <h3>Admin</h3>
+      <div>
+        <button onclick="goTo('admin_rooms.html')">Manage Rooms</button>
+        <button onclick="goTo('index.html')">Public</button>
+      </div>
+    </div>
+
+    <h4>All bookings</h4>
+    <div id="bookings"></div>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

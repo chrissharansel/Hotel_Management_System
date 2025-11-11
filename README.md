@@ -10,3 +10,4 @@ Steps:
 4. npm start
 5. Open frontend/*.html in browser (or serve them via static server)
 # Hotel_Management_System
+# Hotel_Management_System

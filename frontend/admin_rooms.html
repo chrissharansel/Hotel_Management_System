@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Manage Rooms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="top">
+      <h3>Manage Rooms</h3>
+      <div>
+        <button onclick="goTo('admin.html')">Back</button>
+      </div>
+    </div>
+
+    <input id="room_number" placeholder="Room number">
+    <input id="room_type" placeholder="Room type">
+    <input id="price" placeholder="Price">
+    <button onclick="addRoom()">Add Room</button>
+
+    <h4>Existing rooms</h4>
+    <div id="rooms"></div>
+
+    <button onclick="logout()">Logout</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

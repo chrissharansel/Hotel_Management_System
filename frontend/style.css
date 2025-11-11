@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 360px;
+  max-width: 95%;
+}
+
+input, button, select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.room-item {border-bottom:1px solid #eee;padding:8px 0;}
+.row {display:flex;gap:8px;}
+.row button {flex:1;}
+.top {display:flex;justify-content:space-between;align-items:center;margin-bottom:10px;}
